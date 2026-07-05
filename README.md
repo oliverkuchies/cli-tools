@@ -1,27 +1,27 @@
-# 🧰 Dev CLI Tools Setup
+# Dev CLI Tools Setup
 
 This script installs a modern terminal toolchain for a faster, cleaner, and more productive development workflow.
 
 ---
 
-## 📦 Core Tools (Homebrew)
+## Core Tools (Homebrew)
 
-* 🐈‍⬛ `bat` — better `cat` with syntax highlighting
-* 📁 `eza` — modern replacement for `ls`
-* 🔍 `fzf` — fuzzy finder for the terminal
-* 🧭 `zoxide` — smarter `cd` navigation
-* 🧪 `git-delta` — improved Git diffs
-* 🧑‍💻 `lazygit` — simple Git TUI
-* 📊 `btop` — system monitor
-* ☸️ `kubectl` — Kubernetes CLI
-* 📦 `pnpm` — fast Node.js package manager
-* ✨ `starship` — customizable shell prompt
+* `bat` — better `cat` with syntax highlighting
+* `eza` — modern replacement for `ls`
+* `fzf` — fuzzy finder for the terminal
+* `zoxide` — smarter `cd` navigation
+* `git-delta` — improved Git diffs
+* `lazygit` — simple Git TUI
+* `btop` — system monitor
+* `kubectl` — Kubernetes CLI
+* `pnpm` — fast Node.js package manager
+* `starship` — customizable shell prompt
 
 ---
 
 ## ⚙️ Runtime Manager
 
-* 🛠️ `mise` — manages language runtimes (Node, Python, etc.)
+* `mise` — manages language runtimes (Node, Python, etc.)
 
 ---
 

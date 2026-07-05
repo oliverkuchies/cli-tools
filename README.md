@@ -1,88 +1,62 @@
-# CLI Development Environment
+# 🧰 Dev CLI Tools Setup
 
-Modern macOS terminal setup focused on speed, clarity, and productivity.
-
-This environment is built around `zsh`, Homebrew, and a set of modern CLI replacements for core Unix tools.
+This script installs a modern terminal toolchain for a faster, cleaner, and more productive development workflow.
 
 ---
 
-## ⚙️ Core Shell
+## 📦 Core Tools (Homebrew)
 
-- **Shell:** zsh (default on macOS)
-- **Prompt:** starship
-- **Package manager:** Homebrew
-- **Runtime manager:** mise
-
----
-
-## 🚀 CLI Tools
-
-### 📁 Navigation & Files
-
-| Tool | Purpose | Replacement |
-|------|--------|-------------|
-| eza | modern `ls` | ls, ll, lt |
-| zoxide | smart `cd` | cd |
-| fd | fast file finder | find |
-| bat | better `cat` | cat |
-| yazi | terminal file manager | ranger / finder |
+* 🐈‍⬛ `bat` — better `cat` with syntax highlighting
+* 📁 `eza` — modern replacement for `ls`
+* 🔍 `fzf` — fuzzy finder for the terminal
+* 🧭 `zoxide` — smarter `cd` navigation
+* 🧪 `git-delta` — improved Git diffs
+* 🧑‍💻 `lazygit` — simple Git TUI
+* 📊 `btop` — system monitor
+* ☸️ `kubectl` — Kubernetes CLI
+* 📦 `pnpm` — fast Node.js package manager
+* ✨ `starship` — customizable shell prompt
 
 ---
 
-### 🔎 Search & Fuzzy Matching
+## ⚙️ Runtime Manager
 
-| Tool | Purpose |
-|------|--------|
-| fzf | fuzzy finder |
-| ripgrep (rg) | fast text search |
+* 🛠️ `mise` — manages language runtimes (Node, Python, etc.)
 
 ---
 
-### 🧠 Git & Version Control
+## 🧩 Shell Enhancements
 
-| Tool | Purpose |
-|------|--------|
-| git | version control |
-| lazygit | terminal git UI |
-| git-delta | improved diffs |
-
----
-
-### 📊 System & Monitoring
-
-| Tool | Purpose |
-|------|--------|
-| btop | system monitor (CPU/RAM/processes) |
+* `fzf` — fuzzy search + key bindings
+* `zoxide` — smart directory jumping
+* `kubectl` — shell autocompletion
+* `starship` — modern terminal prompt
 
 ---
 
-### 🌐 Data & APIs
+## 🔤 Fonts
 
-| Tool | Purpose |
-|------|--------|
-| jq | JSON processor |
-| yq | YAML processor |
-| xh | HTTP client (curl replacement) |
+* JetBrains Mono Nerd Font (for icons + better terminal visuals)
 
 ---
 
-### ☸️ DevOps / Infra
+## 🎨 Git Improvements
 
-| Tool | Purpose |
-|------|--------|
-| kubectl | Kubernetes CLI |
-| mise | runtime/version manager |
+* `delta` — beautiful diffs in Git
 
----
-
-### ✨ Terminal Experience
-
-| Tool | Purpose |
-|------|--------|
-| starship | shell prompt |
-| fzf | fuzzy search integration |
-| zoxide | directory learning |
-| bat | syntax-highlighted file preview |
-| eza | colored directory listings |
+  * syntax highlighting
+  * side-by-side view
+  * line numbers
+  * better paging
 
 ---
+
+## 🚀 Summary
+
+This setup gives you:
+
+* Faster terminal navigation
+* Better file and Git viewing
+* Improved search and productivity tools
+* A clean, modern shell experience
+
